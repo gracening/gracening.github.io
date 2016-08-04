@@ -1,6 +1,6 @@
 body {
 	/* change colour later */
-	background-color: #FF9B21;
+	/* background-color: #FF9B21; */
 }
 
 #nav {
@@ -49,3 +49,31 @@ li a:hover {
 }
 
  */
+
+#header {
+	background-color: #FF9B21;
+	/* insert image later */
+	/* background-image: url("images/filename"); */
+	background-position: center;
+	background-size: cover;
+}
+ 
+h2 {
+	font-family: 'Muli';
+	margin-top: 0;
+	font-weight: bold;
+} 
+
+h3 {
+	font-family: 'Muli';
+}
+
+#description {
+	text-align: center;
+}
+ 
+/*  #intro #banner {
+	 flex: 1;
+	 transform-origin: top center;
+	 position: relative;
+ } */
