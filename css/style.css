@@ -3,6 +3,8 @@ body {
 	/* background-color: #FF9B21; */
 }
 
+/* NAV BAR */
+ 
 #nav {
 	overflow: hidden;
 }
@@ -50,6 +52,8 @@ li a:hover {
 
  */
 
+/*  HEADER */
+ 
 #header {
 	background-color: #FF9B21;
 	/* insert image later */
@@ -69,6 +73,14 @@ h3 {
 	font-family: 'Muli';
 }
 
+h5 {
+	font-family: 'Muli';
+	font-weight: bold;
+	
+}
+
+/* ABOUT */
+
 #description {
 	text-align: center;
 }
@@ -80,8 +92,34 @@ h3 {
  } */
  
 #about {
-	margin:5% 12% 5% 12%;
+	margin: 5% 12% 5% 12%;
 }
+
+/* SKILLS */
+
+#skills {
+	margin: 5% 12% 5% 12%;
+}
+
+.bar {
+	width: 100%;
+	height: 5px;
+	background-color: #EBECED;
+	-webkit-border-radius: 3px;
+	-mozz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.bar > span {
+	display: block;
+	height: 100%;
+	border-radius: 3px;
+	background-color: #FF9B21;
+	position: relative;
+	overflow: hidden;
+}
+
+/* PORTFOLIO */
 
  #portfolio {
 	 background-color: #EBECED;
