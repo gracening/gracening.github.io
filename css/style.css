@@ -3,6 +3,30 @@ body {
 	/* background-color: #FF9B21; */
 }
 
+p {
+	color: #696969;
+}
+
+/* SCROLL BAR */
+
+::-webkit-scrollbar {
+	width: 5px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1); 
+	-webkit-border-radius: 5px;
+    border-radius: 5px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #FF9B21;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
 /* NAV BAR */
  
 #nav {
@@ -67,6 +91,7 @@ h2 {
 	font-family: 'Muli';
 	margin-top: 0;
 	font-weight: bold;
+	margin-bottom: 25px;
 } 
 
 h3 {
@@ -76,7 +101,7 @@ h3 {
 h5 {
 	font-family: 'Muli';
 	font-weight: bold;
-	
+	text-transform: uppercase;
 }
 
 /* ABOUT */
@@ -95,10 +120,22 @@ h5 {
 	margin: 5% 12% 5% 12%;
 }
 
+/* PORTFOLIO */
+
+#portfolio {
+	background-color: #f2f2f2;
+	padding: 5px 0 20px 0;
+}
+
+#portfolio #port-body {
+	margin: 5% 12% 5% 12%;
+}
+ 
 /* SKILLS */
 
 #skills {
 	margin: 5% 12% 5% 12%;
+	background-color: white;
 }
 
 .bar {
@@ -108,6 +145,7 @@ h5 {
 	-webkit-border-radius: 3px;
 	-mozz-border-radius: 3px;
 	border-radius: 3px;
+	margin-bottom: 30px;
 }
 
 .bar > span {
@@ -120,8 +158,3 @@ h5 {
 	width: 0;
 }
 
-/* PORTFOLIO */
-
- #portfolio {
-	 background-color: #EBECED;
- }
