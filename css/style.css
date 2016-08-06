@@ -79,9 +79,8 @@ li a:hover {
 /*  HEADER */
  
 #header {
-	background-color: #FF9B21;
-	/* insert image later */
-	/* background-image: url("images/filename"); */
+	background-image: url("../images/tazmily.png");
+	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	padding-bottom: 50px;
@@ -104,11 +103,15 @@ h5 {
 	text-transform: uppercase;
 }
 
-/* ABOUT */
-
 #description {
 	text-align: center;
+	margin: 15% 0 10% 0;
+
 }
+
+/* ABOUT */
+
+
  
 /*  #intro #banner {
 	 flex: 1;
