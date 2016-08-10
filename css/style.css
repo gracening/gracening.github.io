@@ -33,19 +33,19 @@ p {
 	
 }
 
-ul {
+#menu {
 	background: rgba(0,0,0,0.3);
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
 }
 
-li {
+#menu li {
 	display: block;
 	float: left;
 }
 
-li a {
+#menu li a {
 	display: block;
 	color: white;
 	text-align: center;
@@ -55,11 +55,11 @@ li a {
 	position: relative;
 }
 
-li a:visited {
+#menu li a:visited {
 	color: white;
 }
 
-li a:hover {
+#menu li a:hover {
 	color: #df9fa2;
 }
 
@@ -179,7 +179,32 @@ footer {
 
 footer #contact-info {
 	margin: 5% 12% 0 12%;
-	padding: 20px 0 100px 0;
+	padding: 20px 0 20px 0;
 	text-align: center;
 }
 
+#icons {
+    font: 0/0 a;   
+	margin: auto;
+	padding: 0;
+}
+
+#icons li {
+	margin: 2% 2% 0 2%;
+	display: inline-block;
+    vertical-align: middle;
+}
+
+footer #icons:before {    
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;  
+    height: 100%;
+}
+
+#cprt {
+	color: #ffcccc;
+	font-family: 'Muli';
+	font-size: 10px;
+	margin-top: 5%;
+}
