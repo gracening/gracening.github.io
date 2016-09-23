@@ -75,6 +75,7 @@ p {
 	border-right: 15px solid transparent;
 	border-top: 15px solid rgba(0,0,0,0.3);
 	-webkit-animation: fadein 0.5s;
+	transform: translateY(-0.75px);
 }
 
 @keyframes fadein {
@@ -112,7 +113,10 @@ h5 {
 #description {
 	text-align: center;
 	margin: 15% 0 10% 0;
+}
 
+#description p {
+	color: rgba(255,255,255,0.8);
 }
 
 /* ABOUT */
@@ -129,21 +133,26 @@ h5 {
 	margin: 5% 12% 5% 12%;
 }
 
-/* PORTFOLIO */
+/* EXPERIENCE */
 
-#portfolio {
-/* 	background-color: #f2f2f2; */
+#experience {
 	background: repeating-linear-gradient(
 		45deg,
-		#e6e6e6,
-		#e6e6e6 2px,
+		#f2f2f2,
+		#f2f2f2 2px,
 		#ffffff 2px,
 		#ffffff 5px
 	);
 	padding: 5px 0 20px 0;
 }
 
-#portfolio #port-body {
+#experience #exp-body {
+	margin: 5% 12% 5% 12%;
+}
+
+/* PORTFOLIO */
+
+#portfolio {
 	margin: 5% 12% 5% 12%;
 }
  
@@ -172,6 +181,14 @@ h5 {
 	position: relative;
 	overflow: hidden;
 	width: 0;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
 }
 
 /* FOOTER */
