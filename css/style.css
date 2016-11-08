@@ -262,8 +262,9 @@ section#header {
 }
 
 li.grid-item{	
+	border-radius: 15px;
 	width: 33%;
-	height: 300px;
+	height: 320px;
 	position:relative;
 	float:left;
 	overflow: hidden;
@@ -271,7 +272,6 @@ li.grid-item{
 
 li.grid-item img {
 	transition: filter, transform, 0.5s;
-
 	height: auto;
 	width: 100%;
 }
@@ -314,7 +314,7 @@ li.grid-item:hover img {
 }
 
 .grid-hover p{
-	font-size:13px;
+	font-size:16px;
 	bottom:40px;
 	left:40px;
 	position:absolute;
