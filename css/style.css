@@ -59,7 +59,7 @@ p {
 /* NAV BAR */
  
 #nav {	
-	background: rgba(0,0,0,0.3);
+	background: -webkit-linear-gradient(bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.4));
 }
 
 #menu {
@@ -74,7 +74,8 @@ p {
 }
 
 #menu li a {
-	font-size: 1.2em;
+	font-size: 1.3em;
+	text-transform: uppercase;
 	display: block;
 	color: white;
 	text-align: center;
@@ -102,7 +103,7 @@ p {
 	margin-left: -15px;
 	border-left: 15px solid transparent;
 	border-right: 15px solid transparent;
-	border-top: 15px solid rgba(0,0,0,0.3);
+	border-top: 15px solid rgba(0,0,0,0.2);
 	-webkit-animation: fadein 0.5s;
 	transform: translateY(-0.75px);
 }
