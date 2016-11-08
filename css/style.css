@@ -8,11 +8,6 @@ p {
 	font-size: 19px;
 }
 
-
-/* #subtitle {
-	
-} */
-
 @keyframes fadeslide {
     from { top: -30px; opacity: 0; }
     to   { top:0px; opacity: 1; }
@@ -181,9 +176,9 @@ section#header {
 }
 
 #description p {
-	color: rgb(51, 51, 51, 0.9);
+	color: #333333; 
 	font-family: 'Muli';
-	font-size: 18px;
+	font-size: 20px;
 }
 
 /* ABOUT */
