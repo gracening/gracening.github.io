@@ -218,6 +218,77 @@ h5 {
 #portfolio {
 	margin: 5% 12% 5% 12%;
 }
+
+.art-grid{
+	width: 100%;
+	position:relative;
+	margin: 30px auto;
+	overflow:hidden;
+	padding: 0;
+	list-style: none;
+}
+
+li.grid-item{	
+	width: 33%;
+	position:relative;
+	float:left;
+}
+
+li.grid-item img {
+	transition: filter, transform, 0.5s;
+}
+
+li.grid-item:hover img {
+	transform: scale(1.15);
+}
+
+.grid-hover{
+	position: absolute;
+	width: 80%;
+	height: 80%;
+	top: 10%;
+	left: 10%;
+	right: 10%;
+	bottom: 10%;
+ 	background: white;
+	opacity: 0;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in; 
+}
+
+.grid-hover:hover{
+  opacity: 0.9;
+}
+
+.grid-hover h1{
+  font-size:23px;
+  bottom: 40%;
+  left:40px;
+  position:absolute;
+  text-transform:uppercase;
+  color:#000000;
+  letter-spacing:1px;
+  font-weight:900;
+  line-height:50px;
+}
+
+.grid-hover p{
+  font-size:13px;
+  bottom:40px;
+  left:40px;
+  position:absolute;
+  color:#686868;
+  letter-spacing:1px;
+  font-weight:400;
+  line-height:50px;
+}
+
+li.grid-item img{
+  width: 100%;
+}
  
 /* SKILLS */
 
