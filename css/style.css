@@ -230,12 +230,17 @@ h5 {
 
 li.grid-item{	
 	width: 33%;
+	height: 300px;
 	position:relative;
 	float:left;
+	overflow: hidden;
 }
 
 li.grid-item img {
 	transition: filter, transform, 0.5s;
+
+	height: auto;
+	width: 100%;
 }
 
 li.grid-item:hover img {
@@ -260,36 +265,32 @@ li.grid-item:hover img {
 }
 
 .grid-hover:hover{
-  opacity: 0.9;
+	opacity: 0.9;
 }
 
 .grid-hover h1{
-  font-size:23px;
-  bottom: 40%;
-  left:40px;
-  position:absolute;
-  text-transform:uppercase;
-  color:#000000;
-  letter-spacing:1px;
-  font-weight:900;
-  line-height:50px;
+	font-size:23px;
+	bottom: 40%;
+	left:40px;
+	position:absolute;
+	text-transform:uppercase;
+	color:#000000;
+	letter-spacing:1px;
+	font-weight:900;
+	line-height:50px;
 }
 
 .grid-hover p{
-  font-size:13px;
-  bottom:40px;
-  left:40px;
-  position:absolute;
-  color:#686868;
-  letter-spacing:1px;
-  font-weight:400;
-  line-height:50px;
+	font-size:13px;
+	bottom:40px;
+	left:40px;
+	position:absolute;
+	color:#686868;
+	letter-spacing:1px;
+	font-weight:400;
+	line-height:50px;
 }
 
-li.grid-item img{
-  width: 100%;
-}
- 
 /* SKILLS */
 
 #skills {
