@@ -12,3 +12,15 @@ $('.art-grid li a').magnificPopup({
 		navigateByImgClick: true
     }
 });
+
+$(function() {
+	$('#portfolio').waypoint({	
+		handler: function() {
+			$(".art-grid li").each(function() {
+				$(this)
+					.fadeIn("slow");
+			});
+			this.destroy();
+		},
+	})
+});
