@@ -13,14 +13,15 @@ $('.art-grid li a').magnificPopup({
     }
 });
 
-$(function() {
-	$('#portfolio').waypoint({	
-		handler: function() {
-			$(".art-grid li").each(function() {
-				$(this)
-					.fadeIn("slow");
-			});
-			this.destroy();
-		},
-	})
-});
+//$(function() {
+//	$('#portfolio').waypoint({	
+//		handler: function() {
+//			$(".art-grid li").each(function() {
+//				$(this)
+//					.fadeIn(");
+//			});
+//			this.destroy();
+//		},
+//		offset: '20%'
+//	})
+//});
