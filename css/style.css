@@ -205,7 +205,7 @@ section#header {
 
 #about .desc {
 	display: inline-block;
-	width: 73%;
+	width: 70%;
 	margin: 3% 0 0 5%;
 }
 
@@ -234,10 +234,25 @@ section#header {
 	}
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1360px) {
+	#about .photo img {
+		top: -40%;
+	}
+	#about .desc p {
+		font-size: 19px;
+	}
+	#about .desc {
+		display: inline-block;
+		width: 60%;
+		margin: 3% 0 0 5%;
+	}
+}
+
+@media (min-width: 1360px) {
 	#about .photo img {
 		top: -25%;
 	}
+	
 }
 
 /* EXPERIENCE */
