@@ -1,6 +1,6 @@
 footer {
-	background: #24254E;
-	background: -webkit-linear-gradient(#24254E, #C26265); /* For Safari 5.1 to 6.0 */
+	background: $dark-purple;
+	background: -webkit-linear-gradient($dark-purple, #c26265); /* for safari 5.1 to 6.0 */
     background: -o-linear-gradient(#24254E, #C26265); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#24254E, #C26265); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#24254E, #C26265); /* Standard syntax (must be last) */
