@@ -159,12 +159,6 @@ section#header {
 	height: 80vh;
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
-	section#header {
-		
-	}
-}
-
 #hello {
 	position: relative;
 	-webkit-animation: fadeslide 1.5s ease-out forwards; /* Safari, Chrome and Opera > 12.1 */
@@ -189,24 +183,21 @@ section#header {
 	margin: 5% 12% 5% 12%;
 }
 
+#about .desc_container {
+}
+
 #about .photo {
-	width: 220px;
-	height: 220px;
 	display: inline-block;
-	margin: 0 0 0 3%;
 }
 
 #about .photo img {
-	position: relative;
-	width: 100%;
-	height: 100%;
-	top: -25%;
+	width: 200px;
+	height: 200px;
+	vertical-align: inherit;
 }
 
 #about .desc {
 	display: inline-block;
-	width: 70%;
-	margin: 3% 0 0 5%;
 }
 
 #about h2:after {
@@ -214,30 +205,17 @@ section#header {
 	display: block;
 	width: 1em;
 	height: 2px;
-	background: #FF9B21;
+	background: #ff9b21;
 	margin: .75em auto .75em 0;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-	#about .photo {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 50%;
-		height: auto;
-	}
-	#about .photo img {
-		top: -10%;
-	}
 	#about .desc p {
 		font-size: 19px;
 	}
 }
 
 @media (min-width: 1024px) and (max-width: 1360px) {
-	#about .photo img {
-		top: -40%;
-	}
 	#about .desc p {
 		font-size: 19px;
 	}
@@ -249,13 +227,10 @@ section#header {
 }
 
 @media (min-width: 1360px) {
-	#about .photo img {
-		top: -25%;
-	}
 	
 }
 
-/* EXPERIENCE */
+/* experience */
 
 #experience {
 	background: repeating-linear-gradient(
