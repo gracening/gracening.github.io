@@ -10,6 +10,25 @@ $orange: #FF8B21;
 $nav-hover: #DF9FA2;
 $scroll-track: #F5F5F5;
 
+h2 {
+	font-size: 3em;
+	font-family: $font-title;
+	margin-top: 0;
+	font-weight: bold;
+	margin-bottom: 25px;
+} 
+
+h3 {
+	font-size: 2em;
+	font-family: $font-title; 
+}
+
+h5 {
+	font-family: $font-title; 
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
 .section {
 	margin: 5% 12% 5% 12%;
 	
