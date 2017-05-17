@@ -1,6 +1,4 @@
-.about {
-	margin: 5% 12% 5% 12%;
-
+#about {
 	.desc_container {
 		.photo {
 			display: inline-block;
@@ -16,26 +14,17 @@
 		}
 	}
 
-	h2:after {
-		content: ' ';
-		display: block;
-		width: 1em;
-		height: 2px;
-		background: $orange;
-		margin: .75em auto .75em 0;
-	}
-
 	@media (min-width: 768px) and (max-width: 1023px) {
-		#about .desc p {
+		.desc p {
 			font-size: 19px;
 		}
 	}
 
 	@media (min-width: 1024px) and (max-width: 1360px) {
-		#about .desc p {
+		.desc p {
 			font-size: 19px;
 		}
-		#about .desc {
+		.desc {
 			display: inline-block;
 			width: 60%;
 			margin: 3% 0 0 5%;

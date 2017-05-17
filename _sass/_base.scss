@@ -1,12 +1,28 @@
 $font-title: 'Didact Gothic', sans-serif;
 $font-body: 'Muli';
 
+$light-gray: #696969;
+
 $light-pink: #FFCCCC;
 $dark-purple: #24254E;
-$nav-hover: #DF9FA2;
-$orange: #FF9B21;
+$orange: #FF8B21;
 
+$nav-hover: #DF9FA2;
 $scroll-track: #F5F5F5;
+
+.section {
+	margin: 5% 12% 5% 12%;
+	
+	/* orange bar under header */
+	.sec_title:after {
+		content: ' ';
+		display: block;
+		width: 1em;
+		height: 2px;
+		background: $orange;
+		margin: .75em auto .75em 0;
+	}
+}
 
 @keyframes fadein {
     from { opacity: 0; }

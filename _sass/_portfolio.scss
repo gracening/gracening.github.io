@@ -1,15 +1,4 @@
 #portfolio {
-	margin: 5% 12% 5% 12%;
-	
-	h2:after {
-		content: ' ';
-		display: block;
-		width: 1em;
-		height: 2px;
-		background: $orange; 
-		margin: .75em auto .75em 0;
-	}
-	
 	art-grid{
 		width: 100%;
 		position:relative;
