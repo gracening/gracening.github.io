@@ -1,0 +1,8 @@
+# Site Infos
+title: Grace Ning 
+description: Grace Ning's personal site 
+baseurl: ""
+url: http://www.gracening.me
+
+sass:
+  style: compressed
