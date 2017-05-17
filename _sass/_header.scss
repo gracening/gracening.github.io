@@ -1,0 +1,29 @@
+#header {
+	background-image: url("../images/tazmily.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-bottom: 50px;
+}
+
+section#header {
+	height: 80vh;
+}
+
+#hello {
+	position: relative;
+	-webkit-animation: fadeslide 1.5s ease-out forwards; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadeslide 1.5s; /* Firefox < 16 */
+	-ms-animation: fadeslide 1.5s; /* Internet Explorer */
+}
+
+#description {
+	text-align: center;
+	margin: 15% 0 10% 0;
+}
+
+#description p {
+	color: #333333; 
+	font-family: 'Muli';
+	font-size: 20px;
+}

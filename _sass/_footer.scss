@@ -1,0 +1,50 @@
+footer {
+	background: #24254E;
+	background: -webkit-linear-gradient(#24254E, #C26265); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#24254E, #C26265); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#24254E, #C26265); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#24254E, #C26265); /* Standard syntax (must be last) */
+
+	.contact_container {
+		margin: 5% 12% 0 12%;
+		padding: 20px 0 20px 0;
+		text-align: center;
+
+		h3 {
+			color: $light-pink;
+		}
+
+		.icons {
+			margin-top: 2%;
+			padding: 0;
+			list-style-type:none;
+			vertical-align: middle;
+		
+			li {
+				display: inline;
+				margin-left: 2%;
+				margin-right: 2%;
+			
+			}
+			i {
+				color: #ffcccc;
+			}
+			i:hover {
+				color: #fff0ec;
+				-o-transition:.5s;
+				-ms-transition:.5s;
+				-moz-transition:.5s;
+				-webkit-transition:.5s;
+				transition:.5s;
+			}
+		}
+		
+		.cprt {
+			color: $light-pink; 
+			font-family: $font-body;
+			font-size: 1em;
+			margin-top: 3%;
+		}
+	}
+
+}

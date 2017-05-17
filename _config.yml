@@ -6,3 +6,4 @@ url: http://www.gracening.me
 
 sass:
   style: compressed
+  sass_dir: _sass
