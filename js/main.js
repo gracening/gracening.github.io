@@ -6,7 +6,7 @@ $(document).ready(function () {
 		$("html, body").animate({ scrollTop: selected.offset().top -50 }, 1000);
 	});
 
-	$('.art-grid li a').magnificpopup({
+	$('.art-grid li a').magnificPopup({
 		type: 'image',
 		gallery: {
 			enabled: true,
