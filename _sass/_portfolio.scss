@@ -1,0 +1,97 @@
+#portfolio {
+	.art-grid{
+		width: 100%;
+		position:relative;
+		margin: 30px auto;
+		overflow:hidden;
+		padding: 0;
+		list-style: none;
+		
+		.grid-item{	
+			border-radius: 15px;
+			width: 33%;
+			max-height: 320px;
+			position:relative;
+			float:left;
+			overflow: hidden;
+			z-index: 1;
+			
+			img {
+				transition: filter, transform, 0.5s;
+				height: auto;
+				width: 100%;
+			}
+			
+			&:hover img {
+				transform: scale(1.15);
+			}
+			
+			.grid-hover{
+				position: absolute;
+				width: 80%;
+				height: 80%;
+				top: 10%;
+				left: 10%;
+				right: 10%;
+				bottom: 10%;
+			 	background: white;
+				opacity: 0;
+				-webkit-transition: all 0.2s ease-in;
+				-moz-transition: all 0.2s ease-in;
+				-ms-transition: all 0.2s ease-in;
+				-o-transition: all 0.2s ease-in;
+				transition: all 0.2s ease-in; 
+				
+				&:hover{
+					opacity: 0.9;
+				}
+				
+				h1{
+					font-size: 2em;
+					padding: 1em 0 0 30px;
+					text-transform:uppercase;
+					color:#000000;
+					letter-spacing:1px;
+					font-weight:900;
+				}
+				
+				p{
+					font-size:1.2em;
+					padding: 0.5em 0 0 30px;
+					color:#686868;
+					letter-spacing:1px;
+					font-weight:400;
+				}
+			}
+		}
+
+		@media (max-width: 767px) {
+			.grid-item {
+				width: 100%;
+			}
+			.grid-hover h1 {
+				padding-top: 10%;
+				font-size: 1.5em;
+			}
+		}
+
+		@media (min-width: 768px) and (max-width: 1023px) {
+			.grid-item {
+				width: 50%;
+			}
+			.grid-hover h1 {
+				font-size: 1.5em;
+				padding-top: 1em; 
+			}
+			.grid-hover p {
+				font-size: 1em;
+			}
+		}
+
+		@media (min-width: 1024px) {
+			.grid-item {
+				width: 33%;
+			}
+		}
+	}
+}
