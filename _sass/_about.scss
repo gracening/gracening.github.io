@@ -1,8 +1,9 @@
 #about {
 	.desc_container {
 		.photo {
-			display: inline-block;
-			
+			float: left;
+			margin-right: 50px;
+
 			img {
 				width: 200px;
 				height: 200px;
@@ -10,28 +11,7 @@
 			}
 		}
 		.desc {
-			display: inline-block;
+			width: inherit;
 		}
-	}
-
-	@media (min-width: 768px) and (max-width: 1023px) {
-		.desc p {
-			font-size: 19px;
-		}
-	}
-
-	@media (min-width: 1024px) and (max-width: 1360px) {
-		.desc p {
-			font-size: 19px;
-		}
-		.desc {
-			display: inline-block;
-			width: 60%;
-			margin: 3% 0 0 5%;
-		}
-	}
-
-	@media (min-width: 1360px) {
-		
 	}
 }

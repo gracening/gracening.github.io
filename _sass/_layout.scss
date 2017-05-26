@@ -6,6 +6,20 @@ body {
 
 }
 
+.section {
+	margin: 5% 12% 10% 12%;
+	
+	/* orange bar under header */
+	.sec_title:after {
+		content: ' ';
+		display: block;
+		width: 1em;
+		height: 2px;
+		background: $orange;
+		margin: .75em auto .75em 0;
+	}
+}
+
 /* SCROLL BAR */
 
 ::-webkit-scrollbar {
