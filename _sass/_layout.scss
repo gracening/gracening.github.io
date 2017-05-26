@@ -1,6 +1,9 @@
 body {
+	margin: 0;
+	font-family: $font-body;
+
 	p {
-		color: $light-gray;
+		color: $dark-gray;
 		font-size: 19px;
 	}
 

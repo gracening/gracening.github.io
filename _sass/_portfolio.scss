@@ -47,20 +47,20 @@
 				}
 				
 				h1{
-					font-size: 2em;
+					font-family: $font-art-grid;
+					font-size: 1.7em;
 					padding: 1em 0 0 30px;
-					text-transform:uppercase;
-					color:#000000;
-					letter-spacing:1px;
-					font-weight:900;
+					text-transform: uppercase;
+					color: black;
+					letter-spacing: 1px;
+					font-weight: 900;
 				}
 				
 				p{
-					font-size:1.2em;
-					padding: 0.5em 0 0 30px;
-					color:#686868;
-					letter-spacing:1px;
-					font-weight:400;
+					font-size: 1.1em;
+					padding-left: 30px;
+					color: $light-gray;
+					font-weight: 400;
 				}
 			}
 		}

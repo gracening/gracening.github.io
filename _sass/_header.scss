@@ -5,9 +5,13 @@
 	background-size: cover;
 	padding-bottom: 50px;
 	height: 80vh;
+    line-height: 1.5em;
+    color: $dark-gray;
 
 	.nav {	
 		background: -webkit-linear-gradient(bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.4));
+		font-family: $font-nav;
+		line-height: 1.8em;
 
 		.menu {
 			margin: 0 12% 0 12%;
@@ -19,7 +23,7 @@
 				float: left;
 			}
 			a {
-				font-size: 1.3em;
+				font-size: 1.1em;
 				text-transform: uppercase;
 				display: block;
 				color: white;
