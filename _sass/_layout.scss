@@ -1,7 +1,6 @@
 body {
 	margin: 0;
 	font-family: $font-body;
-
 	p {
 		color: $dark-gray;
 		font-size: 19px;
@@ -10,8 +9,7 @@ body {
 }
 
 .section {
-	margin: 5% 12% 10% 12%;
-	
+	margin: 5% 12% 8% 12%;
 	/* orange bar under header */
 	.sec_title:after {
 		content: ' ';
