@@ -26,62 +26,16 @@ title: Grace Ning
 	<p>I love drawing and painting, and do a variety of personal doodles and commissions.</p>
 
 	<ul class="art-grid">
-		<li class="grid-item">
-			<a href="http://i.imgur.com/HZK0APp.png">
-				<img src="http://i.imgur.com/Hyz8bsn.png">
-				<div class="grid-hover">
-					<h1>Toronto</h1>
-					<p>The view from the Toronto Islands</p>
-				</div>
-			</a>
-		</li>
+		{% for image in site.data.gallery %}
+			<li class="grid-item">
+				<a href={{ image.imglink }}>
+					<img src={{ image.thumb }}>
+					<div class="grid-hover">
+						<h1>{{ image.title }}</h1>
+						<p>{{ image.desc }}<p>
+					</div>
+				</a>
+			</li>
+		{% endfor %}
 
-		<li class="grid-item">
-			<a href="http://i.imgur.com/jbGDmRq.png">
-				<img src="http://i.imgur.com/7jAL5gq.png">
-				<div class="grid-hover">
-					<h1>Tazmily</h1>
-					<p>Sunflower fields of Tazmily village</p>
-				</div>
-			</a>
-		</li>
-
-		<li class="grid-item">
-			<a href="http://i.imgur.com/Np06QCu.png">
-				<img src="http://i.imgur.com/C9T8Xsw.png">
-				<div class="grid-hover">
-					<h1>Mother 3</h1>
-					<p>10/10 game</p>
-				</div>
-			</a>
-		</li>
-
-		<li class="grid-item">
-			<a href="http://i.imgur.com/mtP4szR.jpg">
-				<img src="http://i.imgur.com/7zISrBB.jpg">
-				<div class="grid-hover">
-					<h1>Portrait</h1>
-					<p>Based on a photo</p>
-				</div>
-			</a>
-		</li>
-		<li class="grid-item">
-			<a href="http://i.imgur.com/NdgMVPZ.jpg">
-				<img src="http://i.imgur.com/RlW5i3F.jpg">
-				<div class="grid-hover">
-					<h1>Rain</h1>
-					<p>Page of my sketchbook</p>
-				</div>
-			</a>
-		</li>
-		<li class="grid-item">
-			<a href="http://i.imgur.com/Z2s7hcd.jpg">
-				<img src="http://i.imgur.com/kyn6Z3l.jpg">
-				<div class="grid-hover">
-					<h1>Gold</h1>
-					<p>Permanent markers are a lot of fun</p>
-				</div>
-			</a>
-		</li>
-	</ul>
 </section>
