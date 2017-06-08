@@ -1,77 +1,45 @@
-.header {
-	background-image: url("../images/tazmily.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	padding-bottom: 50px;
-	height: 80vh;
-    line-height: 1.5em;
+header {
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.4));
     color: $dark-gray;
+	font-family: $font-nav;
+	line-height: 1.8em;
 
-	.nav {	
-		background: -webkit-linear-gradient(bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.4));
-		font-family: $font-nav;
-		line-height: 1.8em;
+    height: 3.5em;
+    position: fixed;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+    width: 100%;
 
-		.menu {
-			margin: 0 12% 0 12%;
-			list-style-type: none;
-			padding: 0;
+	.menu {
+		margin: 0 12% 0 12%;
+		list-style-type: none;
+		padding: 0;
 
-			li {
-				display: block;
-				float: left;
-			}
-			a {
-				font-size: 1.1em;
-				text-transform: uppercase;
-				display: block;
-				color: white;
-				text-align: center;
-				padding: 16px 16px;
-				text-decoration: none;
-				-webkit-transition:color 0.5s ease-in;
-				position: relative;
-			}
-			a:visited {
-				color: white;
-			}
-	
-			a:hover {
-				color: $nav-hover;
-			}
-			/* arrow */
-			a:hover:after {
-				content: "";
-				position: absolute;
-				bottom: -15px;
-				width: 0px;
-				left: 50%;
-				margin-left: -15px;
-				border-left: 15px solid transparent;
-				border-right: 15px solid transparent;
-				border-top: 15px solid rgba(0,0,0,0.2);
-				-webkit-animation: fadein 0.5s;
-				transform: translateY(-0.75px);
-			}
+		li {
+			display: block;
+			float: left;
 		}
-	}
-	
-	.banner_desc {
-		text-align: center;
-		margin: 15% 0 10% 0;
-		
-		.nameplate {
+		a {
+			font-size: 1.1em;
+			text-transform: uppercase;
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 16px 16px;
+			text-decoration: none;
+			-webkit-transition:color 0.3s ease-in;
 			position: relative;
-			-webkit-animation: fadeslide 1.5s ease-out forwards; /* Safari, Chrome and Opera > 12.1 */
-			-moz-animation: fadeslide 1.5s; /* Firefox < 16 */
-			-ms-animation: fadeslide 1.5s; /* Internet Explorer */
-		}	
+		}
+		a:visited {
+			color: white;
+		}
 
-		.subtitle {
-			color: #333333; 
-			font-family: $font-body;
-			font-size: 20px;
+		a:hover {
+			color: $nav-hover;
 		}
 	}
+}
+
+.nav-up {
+    top: -3.5em;
 }
