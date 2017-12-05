@@ -1,17 +1,17 @@
 #about {
-	.desc_container {
-		.photo {
-			float: left;
-			margin-right: 50px;
+  .desc_container {
+    .photo {
+      float: left;
+      margin-right: 50px;
 
-			img {
-				width: 200px;
-				height: 200px;
-				vertical-align: inherit;
-			}
-		}
-		.desc {
-			width: inherit;
-		}
-	}
+      img {
+        width: 200px;
+        height: 200px;
+        vertical-align: inherit;
+      }
+    }
+    .desc {
+      width: inherit;
+    }
+  }
 }

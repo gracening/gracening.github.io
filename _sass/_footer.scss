@@ -1,54 +1,54 @@
 footer {
-	background: $dark-purple;
-	background: -webkit-linear-gradient($dark-purple, #c26265); /* for safari 5.1 to 6.0 */
-    background: -o-linear-gradient($dark-purple, #C26265); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient($dark-purple, #C26265); /* For Firefox 3.6 to 15 */
-    background: linear-gradient($dark-purple, #C26265); /* Standard syntax (must be last) */
+  background: $dark-purple;
+  background: -webkit-linear-gradient($dark-purple, #c26265); /* for safari 5.1 to 6.0 */
+  background: -o-linear-gradient($dark-purple, #C26265); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient($dark-purple, #C26265); /* For Firefox 3.6 to 15 */
+  background: linear-gradient($dark-purple, #C26265); /* Standard syntax (must be last) */
 
-	.contact_container {
-		margin: 5% 12% 0 12%;
-		padding: 20px 0 20px 0;
-		text-align: center;
+  .contact_container {
+    margin: 5% 12% 0 12%;
+    padding: 20px 0 20px 0;
+    text-align: center;
 
-		h3 {
-			font-family: $font-footer;
-			color: $light-pink;
-			font-weight: 500;
-			font-size: 1.8em;
-		}
+    h3 {
+      font-family: $font-footer;
+      color: $light-pink;
+      font-weight: 500;
+      font-size: 1.8em;
+    }
 
-		.icons {
-			margin-top: 2%;
-			padding: 0;
-			list-style-type:none;
-			vertical-align: middle;
-		
-			li {
-				font-size: 1em;
-				display: inline;
-				margin-left: 2%;
-				margin-right: 2%;
-			
-			}
-			i {
-				color: $light-pink;
-				&:hover {
-					color: #fff0ec;
-					-o-transition:.5s;
-					-ms-transition:.5s;
-					-moz-transition:.5s;
-					-webkit-transition:.5s;
-					transition:.5s;
-				}
-			}
-		}
-		
-		.cprt {
-			color: $light-pink; 
-			font-family: $font-body;
-			font-size: 1em;
-			margin-top: 3%;
-		}
-	}
-
+    .icons {
+      margin-top: 2%;
+      padding: 0;
+      list-style-type:none;
+      vertical-align: middle;
+    
+      li {
+        font-size: 1em;
+        display: inline;
+        margin-left: 2%;
+        margin-right: 2%;
+      
+	  }
+	  
+      i {
+        color: $light-pink;
+        &:hover {
+          color: #fff0ec;
+          -o-transition:.5s;
+          -ms-transition:.5s;
+          -moz-transition:.5s;
+          -webkit-transition:.5s;
+          transition:.5s;
+        }
+      }
+    }
+    
+    .cprt {
+      color: $light-pink; 
+      font-family: $font-body;
+      font-size: 1em;
+      margin-top: 3%;
+    }
+  }
 }

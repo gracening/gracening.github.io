@@ -1,29 +1,28 @@
 .home {
-	background-image: url("../images/tazmily.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	padding-bottom: 50px;
-	height: 80vh;
-    line-height: 1.5em;
-    color: $dark-gray;
+  background-image: url("../images/tazmily.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 50px;
+  height: 80vh;
+  line-height: 1.5em;
+  color: $dark-gray;
+  
+  .banner_desc {
+    text-align: center;
+    margin: 15% 0 10% 0;
+    
+    .nameplate {
+      position: relative;
+      -webkit-animation: fadeslide 1.5s ease-out forwards; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadeslide 1.5s; /* Firefox < 16 */
+      -ms-animation: fadeslide 1.5s; /* Internet Explorer */
+    }  
 
-	
-	.banner_desc {
-		text-align: center;
-		margin: 15% 0 10% 0;
-		
-		.nameplate {
-			position: relative;
-			-webkit-animation: fadeslide 1.5s ease-out forwards; /* Safari, Chrome and Opera > 12.1 */
-			-moz-animation: fadeslide 1.5s; /* Firefox < 16 */
-			-ms-animation: fadeslide 1.5s; /* Internet Explorer */
-		}	
-
-		.subtitle {
-			color: #333333; 
-			font-family: $font-body;
-			font-size: 20px;
-		}
-	}
+    .subtitle {
+      color: #333333; 
+      font-family: $font-body;
+      font-size: 20px;
+    }
+  }
 }
