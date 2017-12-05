@@ -4,38 +4,38 @@ title: Grace Ning
 ---
 
 <section class="section" id="about">
-	<h2 class="sec_title">A little about me</h2>
-	<div class="desc_container"> 
-		<div class="photo">
-			<img src="images/me.png">
-		</div>
-		<div class="desc">
-			<p>Hey, my name is Grace and I'm a Computer Engineering student at the University of Waterloo. My current focus is full stack development with an emphasis on front-end.</p>
-			<p>For Winter 2017, I worked as a full stack developer for Imagine Communications in Waterloo, ON. I was primarily working on Onyx, a cloud-based playlist automation solution for TV stations such as ABC and Disney. I worked extensively with AngularJS, TypeScript and C#.</p> 
-			<p>For Spring 2016, I worked at RBC developing an ASP.NET application to manage their databases. I've added support for Microsoft SQL Server, Sybase, Oracle and DB2.</p> 
-			<p>Aside from programming, I've always been passionate about art, and I work as a freelance artist; have a look at some of my artwork below! I also enjoy playing piano and Smash (4).</p>
-		</div>
-	</div>
+  <h2 class="sec_title">A little about me</h2>
+  <div class="desc_container"> 
+    <div class="photo">
+      <img src="images/me.png">
+    </div>
+    <div class="desc">
+      <p>Hey, my name is Grace and I'm a Computer Engineering student at the University of Waterloo. My current focus is full stack development with an emphasis on front-end.</p>
+      <p>For Winter 2017, I worked as a full stack developer for Imagine Communications in Waterloo, ON. I was primarily working on Onyx, a cloud-based playlist automation solution for TV stations such as ABC and Disney. I worked extensively with AngularJS, TypeScript and C#.</p> 
+      <p>For Spring 2016, I worked at RBC developing an ASP.NET application to manage their databases. I've added support for Microsoft SQL Server, Sybase, Oracle and DB2.</p> 
+      <p>Aside from programming, I've always been passionate about art, and I work as a freelance artist; have a look at some of my artwork below! I also enjoy playing piano and Smash (4).</p>
+    </div>
+  </div>
 </section>
 
 <!-- <section id="experience">
 </section> -->
 
 <section class="section" id="portfolio">
-	<h2 class="sec_title">Take a look</h2>
-	<p>I love drawing and painting, and do a variety of personal doodles and commissions.</p>
+  <h2 class="sec_title">Take a look</h2>
+  <p>I love drawing and painting, and do a variety of personal doodles and commissions.</p>
 
-	<ul class="art-grid">
-		{% for image in site.data.gallery %}
-			<li class="grid-item">
-				<a href={{ image.imglink }}>
-					<img src={{ image.thumb }}>
-					<div class="grid-hover">
-						<h1>{{ image.title }}</h1>
-						<p>{{ image.desc }}<p>
-					</div>
-				</a>
-			</li>
-		{% endfor %}
+  <ul class="art-grid">
+    {% for image in site.data.gallery %}
+      <li class="grid-item">
+        <a href={{ image.imglink }}>
+          <img src={{ image.thumb }}>
+          <div class="grid-hover">
+            <h1>{{ image.title }}</h1>
+            <p>{{ image.desc }}<p>
+          </div>
+        </a>
+      </li>
+    {% endfor %}
 
 </section>
