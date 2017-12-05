@@ -10,19 +10,45 @@
   justify-content: center;
   
   .banner_desc {
-    text-align: center;    
-    
-    .nameplate {
-      position: relative;
-      -webkit-animation: fadeslide 1.5s ease-out forwards; /* Safari, Chrome and Opera > 12.1 */
-      -moz-animation: fadeslide 1.5s; /* Firefox < 16 */
-      -ms-animation: fadeslide 1.5s; /* Internet Explorer */
-    }  
+    text-align: center;
+    margin-bottom: 3em;
 
     .subtitle p {
       color: $gray-subtitle; 
       font-family: $font-body;
       font-size: 1.4em;
+    }
+  }
+
+  .menu {
+    list-style-type: none;
+    font-family: $font-nav;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    li {
+      display: inline;
+    }
+
+    a {
+      font-size: 1.7em;
+      color: $dark-gray;
+      text-transform: uppercase;
+      margin-left: 1em;
+      margin-right: 1em;
+      text-decoration: none;
+      -webkit-transition: all 0.3s ease-in-out;
+
+      border-bottom: 1px solid transparent;
+
+      &:hover,
+      &:focus {
+        border-color: $nav-hover;
+        border-bottom-width: 2px;
+        padding-bottom: 10px;
+      }
     }
   }
 }
