@@ -8,6 +8,7 @@ $font-art-grid: "helvetica neue",helvetica,arial,sans-serif;
 // COLOURS
 $light-gray: #696969;
 $dark-gray: #333333;
+$gray-subtitle: #5A3F3F;
 
 $light-pink: #FFCCCC;
 $dark-purple: #24254E;
@@ -20,6 +21,11 @@ h1, h2, h3, h5 {
   line-height: 1.1;
   font-family: $font-title;
   color: $dark-gray;
+}
+
+h1 {
+  font-size: 5em;
+  margin: 0;
 }
 
 h2 {
