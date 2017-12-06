@@ -13,10 +13,32 @@
     text-align: center;
     margin-bottom: 3em;
 
+    .nameplate h1 {
+      @include breakpoint(desktop-up) {
+        font-size: 11rem;
+      }
+      
+      @include breakpoint(tablet) {
+        font-size: 3.5rem;
+      }
+    
+      @include breakpoint(mobile) {
+        font-size: 3rem;
+      }
+    }
+
     .subtitle p {
       color: $gray-subtitle; 
       font-family: $font-body;
-      font-size: 1.4em;
+      font-size: 1.5rem;
+
+      @include breakpoint(desktop-up) {
+        font-size: 3rem;
+      }
+    
+      @include breakpoint(mobile) {
+        font-size: 1rem;
+      }
     }
   }
 
@@ -28,31 +50,51 @@
     flex-direction: row;
     justify-content: center;
 
-    @include breakpoint(mobile-only) {
+    @include breakpoint(mobile) {
       flex-direction: column;
     }
 
     li {
       display: inline;
+
+      @include breakpoint(mobile) {
+        text-align: center;
+        margin-top: 8px;
+        margin-bottom: 8px;
+      }
     }
 
     a {
-      font-size: 1.7em;
+      font-size: 1.7rem;
       color: $dark-gray;
       text-transform: uppercase;
       margin-left: 1em;
       margin-right: 1em;
       text-decoration: none;
       -webkit-transition: all 0.3s ease-in-out;
-
       border-bottom: 1px solid transparent;
 
-      &:hover,
-      &:focus {
-        border-color: $nav-hover;
-        border-bottom-width: 2px;
-        padding-bottom: 10px;
+      @include breakpoint(desktop-up) {
+        font-size: 4rem;
       }
+
+      @include breakpoint(tablet) {
+        font-size: 1.5rem;
+      }
+
+      @include breakpoint(mobile) {
+        font-size: 1.2rem;
+      }
+
+      @include breakpoint(tablet-up) {
+        &:hover,
+        &:focus {
+          border-color: $nav-hover;
+          border-bottom-width: 2px;
+          padding-bottom: 10px;
+        }
+      }
+      
     }
   }
 }

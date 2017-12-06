@@ -2,9 +2,9 @@
 #SCSS style sheets
 ---
 
+@import "breakpoints";
 @import "base";
 @import "layout";
-@import "breakpoints";
 @import "about";
 @import "portfolio";
 @import "footer";
