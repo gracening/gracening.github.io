@@ -1,9 +1,9 @@
 footer {
-  background: $dark-purple;
-  background: -webkit-linear-gradient($dark-purple, #c26265); /* for safari 5.1 to 6.0 */
-  background: -o-linear-gradient($dark-purple, #C26265); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient($dark-purple, #C26265); /* For Firefox 3.6 to 15 */
-  background: linear-gradient($dark-purple, #C26265); /* Standard syntax (must be last) */
+  background-image: url("../images/tazmily.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: cover;
 
   .contact_container {
     margin: 5% 12% 0 12%;
@@ -12,40 +12,47 @@ footer {
 
     h3 {
       font-family: $font-footer;
-      color: $light-pink;
+      color: $footer-text;
       font-weight: 500;
-      font-size: 1.8em;
     }
 
-    .icons {
-      margin-top: 2%;
+    .social {
       padding: 0;
       list-style-type:none;
-      vertical-align: middle;
     
       li {
         font-size: 1em;
         display: inline;
         margin-left: 2%;
         margin-right: 2%;
-      
-	  }
+
+        @include breakpoint(desktop-up) {
+          font-size: 2em;
+        }
+
+        @include breakpoint(mobile) {
+          font-size: 0.7em;
+          margin-left: 10px;
+          margin-right: 10px;
+        }
+	    }
 	  
       i {
-        color: $light-pink;
+        color: $footer-text;
+
         &:hover {
-          color: #fff0ec;
-          -o-transition:.5s;
-          -ms-transition:.5s;
-          -moz-transition:.5s;
-          -webkit-transition:.5s;
-          transition:.5s;
+          color: $footer-hover;
+          transition: 0.5s;
         }
+      }
+
+      a {
+        text-decoration: none;
       }
     }
     
     .cprt {
-      color: $light-pink; 
+      color: $footer-text; 
       font-family: $font-body;
       font-size: 1em;
       margin-top: 3%;

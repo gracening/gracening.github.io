@@ -10,10 +10,11 @@ $light-gray: #696969;
 $dark-gray: #333333;
 $gray-subtitle: #5A3F3F;
 
-$light-pink: #FFCCCC;
 $dark-purple: #24254E;
 $orange: #FF8B21;
 
+$footer-text: #FFFFFF;
+$footer-hover: #FFDCCE;
 $nav-hover: #26254E;
 $scroll-track: #F5F5F5;
 
@@ -34,10 +35,30 @@ h2 {
   margin-top: 0;
   font-weight: bold;
   margin-bottom: 25px;
+
+  @include breakpoint(desktop-up) {
+    font-size: 5rem;
+  }
+
+  @include breakpoint(mobile) {
+    font-size: 2rem;
+  }
 } 
 
 h3 {
   font-size: 2em;
+
+  @include breakpoint(desktop-up) {
+    font-size: 4rem;
+  }
+
+  @include breakpoint(tablet) {
+    font-size: 1.5rem;
+  }
+
+  @include breakpoint(mobile) {
+    font-size: 1.2rem;
+  }
 }
 
 h5 {
