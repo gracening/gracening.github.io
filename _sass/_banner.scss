@@ -19,10 +19,6 @@
     margin-bottom: 3em;
 
     .nameplate h1 {
-      @include breakpoint(desktop-up) {
-        font-size: 11rem;
-      }
-      
       @include breakpoint(tablet) {
         font-size: 3.5rem;
       }
@@ -36,10 +32,6 @@
       color: $gray-subtitle; 
       font-family: $font-body;
       font-size: 1.5rem;
-
-      @include breakpoint(desktop-up) {
-        font-size: 3rem;
-      }
     
       @include breakpoint(mobile) {
         font-size: 1rem;
@@ -78,10 +70,6 @@
       text-decoration: none;
       -webkit-transition: all 0.3s ease-in-out;
       border-bottom: 1px solid transparent;
-
-      @include breakpoint(desktop-up) {
-        font-size: 4rem;
-      }
 
       @include breakpoint(tablet) {
         font-size: 1.5rem;

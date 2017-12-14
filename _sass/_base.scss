@@ -36,10 +36,6 @@ h2 {
   font-weight: bold;
   margin-bottom: 25px;
 
-  @include breakpoint(desktop-up) {
-    font-size: 5rem;
-  }
-
   @include breakpoint(mobile) {
     font-size: 2rem;
   }
@@ -47,10 +43,6 @@ h2 {
 
 h3 {
   font-size: 2em;
-
-  @include breakpoint(desktop-up) {
-    font-size: 4rem;
-  }
 
   @include breakpoint(tablet) {
     font-size: 1.5rem;
@@ -69,8 +61,4 @@ h5 {
 p {
   color: $dark-gray;
   font-size: 1rem;
-
-  @include breakpoint(desktop-up) {
-    font-size: 3rem;
-  }
 }
