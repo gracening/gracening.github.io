@@ -1,17 +1,23 @@
 #about {
   .desc_container {
-    .photo {
-      float: left;
-      margin-right: 50px;
+  	display: flex;
+
+  	@include breakpoint(mobile) {
+  	  flex-direction: column;
+  	}
+
+    .title-col {
+	  padding-right: 30px;
+
+	  @include breakpoint(mobile) {
+  	  	text-align: center;
+  	  	padding-right: 0;
+  	  }
 
       img {
-        width: 200px;
-        height: 200px;
-        vertical-align: inherit;
+        width: auto;
+        height: auto;
       }
-    }
-    .desc {
-      width: inherit;
     }
   }
 }
